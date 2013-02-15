@@ -1,0 +1,65 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1360964396.7775152:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%4399b89b8ffaa1a0b2660c707755c3acI"logical_path;
+FI"application.js;
+TI"pathname;
+FI"0$root/app/assets/javascripts/application.js;
+TI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2013-02-15T22:33:01+01:00;
+FI"	body;
+FI"î// This is a manifest file that'll be compiled into including all the files listed below.
+// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
+// be included in the compiled file accessible from http://example.com/assets/application.js
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// the compiled file.
+//
+;
+;
+FI"asset_paths;
+F[	I"}/home/Oluwafemi/.rvm/gems/ruby-1.9.3-p374@hw4_rottenpotatoes/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js;
+TI"|/home/Oluwafemi/.rvm/gems/ruby-1.9.3-p374@hw4_rottenpotatoes/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js;
+TI"8$root/app/assets/javascripts/static_pages.js.coffee;
+TI"0$root/app/assets/javascripts/application.js;
+TI"dependency_paths;
+F[
+{I"	path;
+FI"0$root/app/assets/javascripts/application.js;
+TI"
+mtime;
+FIu:	TimeÎEÄ µ
+:@_zoneI"WAT;
+T:nano_numià:nano_deni:submicro"ê@:offsetiI"hexdigest;
+F"%0f1cfbc0bc3803a9dbf1a44d1da6ff92{I"	path;
+FI"!$root/app/assets/javascripts;
+TI"
+mtime;
+FIu;ıEÄuΩÑ
+;I"WAT;
+T;iÈ;i;"Hê;iI"hexdigest;
+F"%353c6eebf57e8f224d3f71aacc8fd376{I"	path;
+FI"}/home/Oluwafemi/.rvm/gems/ruby-1.9.3-p374@hw4_rottenpotatoes/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js;
+TI"
+mtime;
+FIu;EÄWiGq
+;I"WAT;
+T;iJ;i;"X`;iI"hexdigest;
+F"%53bf97cb01d1ff6047dce10abf121b2b{I"	path;
+FI"|/home/Oluwafemi/.rvm/gems/ruby-1.9.3-p374@hw4_rottenpotatoes/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js;
+TI"
+mtime;
+FIu;EÄ%qGq
+;I"WAT;
+T;iº;i;"p;iI"hexdigest;
+F"%4361aaa3c1478d2edb37daae7621f730{I"	path;
+FI"8$root/app/assets/javascripts/static_pages.js.coffee;
+TI"
+mtime;
+FIu;ıEÄ:Ñ
+;I"WAT;
+T;iç;i;"êê;iI"hexdigest;
+F"%f50e3d51579225e3370988d160060f33I"_version;
+F"%0868aba5d4b750d3a9421721ea3d9b9c

@@ -11,13 +11,15 @@ group :development, :test do
   gem 'linecache19', :git => 'git://github.com/mark-moseley/linecache'
   gem 'ruby-debug-base19x', '~> 0.11.30.pre4'
   gem 'ruby-debug19'         #, :require => 'ruby-debug'  
-  gem 'cucumber-rails'
-  gem 'cucumber-rails-training-wheels'
-  gem 'database_cleaner'
-  gem 'capybara'
-  gem 'launchy'
-  gem 'rspec-rails'
+  gem 'database_cleaner'  # to clear Cucumber's test database between runs
+  gem 'capybara'   # lets Cucumber pretend to be a web browser
+  gem 'launchy'  # a useful debugging aid for user stories
+  gem 'rspec-rails', '2.10.0'
   gem 'simplecov'
+end
+group :test do
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'  # some pre-fabbed step definitions  
 end
 group :production do
   gem 'pg'

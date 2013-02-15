@@ -1,0 +1,9 @@
+%h2 Similar Movies Page for #{@movie.title}
+
+%table#movies
+  - @movies.each do |movie|
+    %tr
+      %td= movie.title 
+      %td= movie.rating
+      %td= movie.release_date
+      %td= link_to "More about #{movie.title}", movie_path(movie)
