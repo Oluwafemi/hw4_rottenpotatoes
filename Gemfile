@@ -26,8 +26,9 @@ group :production do
 end
 
 # Gems used only for assets and not required
-# in production environments by default.
+# in production environments by default.   https://www.youtube.com/watch?v=vdi2t_gePAc&feature=player_embedded
 group :assets do
+  gem 'factory_girl_rails', '1.0'
   gem 'therubyracer'              
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"

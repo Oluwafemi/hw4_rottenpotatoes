@@ -15,4 +15,5 @@ Then /^the director of "(.*?)" should be "(.*?)"$/ do |arg1, arg2|
   director_field_text = returned_elems[0].text
 
   assert ((("Details about " + arg1) == details_field_text) and (("Director: " + arg2) == director_field_text))
+  #assert (Regexp.new(details_field_text) =~ arg1 and Regexp.new(director_field_text) =~ arg2)
 end

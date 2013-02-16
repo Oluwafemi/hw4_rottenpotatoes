@@ -1,22 +1,21 @@
 class MoviesController < ApplicationController
 
   def show
-    id = params[:id] # retrieve movie ID from URI route
-    @movie = Movie.find(id) # look up movie by unique ID
-    # will render app/views/movies/show.<extension> by default
+    id = params[:id] 
+    @movie = Movie.find(id)
   end
 
   def similar_movies
     @movie = Movie.find(params[:id])
     
     if @movie.has_director?
-      @movies = @movie.movies_with_same_directors
+      @movies = Movie.movies_with_same_directors(@movie)
       render 'similar_movies'
     else
       flash[:notice] = "'#{@movie.title}' has no director info"
       redirect_to root_path
     end
-    # tar czf hw4.tar.gz app/ config/ db/migrate features/ spec/ Gemfile
+    
   end
 
   def index

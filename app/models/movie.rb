@@ -4,10 +4,10 @@ class Movie < ActiveRecord::Base
   end
 
   def has_director?
-  	not director.empty?
+  	not (director.nil? or director.empty?)
   end
 
-  def movies_with_same_directors
-  	Movie.where("id <> ? AND director = ?", id, director)
+  def self.movies_with_same_directors(movie)
+  	where("id <> ? AND director = ?", movie.id, movie.director)
   end
 end
