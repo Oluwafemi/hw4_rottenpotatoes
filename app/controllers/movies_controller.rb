@@ -16,7 +16,7 @@ class MoviesController < ApplicationController
       flash[:notice] = "'#{@movie.title}' has no director info"
       redirect_to root_path
     end
-    
+    # tar czf hw4.tar.gz app/ config/ db/migrate features/ spec/ Gemfile
   end
 
   def index
